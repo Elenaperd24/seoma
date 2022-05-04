@@ -1,0 +1,454 @@
+
+/* #home{
+    background: rgb(239, 239, 239);
+
+} */
+
+
+/* hero dos */
+
+#hero-dos{
+    margin-top: 80px;
+    padding-top: 60px;
+      width: 100%;
+      /* height: 500px; */
+  }
+  .hero-container-dos{
+      display: grid;
+      grid-template-columns: 40% 60%;
+  }
+  
+  .hero-text{
+     
+      margin: auto auto;
+      padding-left: 10%;
+  
+  }
+  
+  .hero-text h1{
+      font-size: 10vmin;
+      margin: 20px 0px;
+      color: var(--color-bg);
+ 
+  }
+  
+
+  /* carousel hero  */
+
+  .slider {
+    background: white;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    width:600px !important ; 
+   border-radius: 0.5rem;
+   height: 400px;
+ 
+}
+
+
+.slider .slide-track {
+    animation: scroll 50s linear infinite;
+    display: flex;
+    width: calc(200px * 18);
+}
+
+.slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slide {
+    margin: 2px;
+   
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-200px * 9));
+    }
+}
+
+.homeMain{
+    margin: 4% 2% 0% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px 20px;
+    
+}
+
+.homeImage{
+    width: 500px;
+ 
+
+}
+.homeImage img{
+    width: 100%;
+}
+
+.homeDescrip{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeDescrip h2{
+    text-align: center;
+}
+
+.homeDescrip p{
+    padding: 40px;
+    text-align: justify;
+
+}
+
+
+/*home imagen fixed */
+
+.homeImgFixeContenedor{
+    padding: 40px 40px;
+
+}
+
+.homeImgFixed{
+    height: 500px;
+    width: 100%;
+    background: url(./img/big_hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+#all-need{
+    
+    background: var(--color-primary);
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 6%;
+}
+#all-need h1{
+ text-align: center;
+ margin-bottom: 2%;
+
+}
+
+.allNeed{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.allNeedContent{
+    text-align: center;
+    width: 400px;
+    margin: 15px;
+    
+}
+
+.allNeedContent p{
+    padding: 10px 15px;
+}
+
+
+.home-frase{
+      
+    color: var( --color-bg-variant);
+    text-align: center;
+    padding: 10% 2% 10% 2%;
+    
+}
+
+.home-frase h1{
+    font-size: 7vmin;
+    font-style: italic;
+    
+}
+
+.firma{
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+
+     .hero-text h1{
+
+        font-size: 6vmin;
+         
+     }
+ 
+    
+ }
+
+
+
+
+
+
+
+
+
+
+  /********************************************** M E D I A -Q U E R Y************************ */
+
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .slider{
+        width: 550px !important;
+      }
+
+  
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .slider{
+        width: 400px !important;
+        height: 400px;
+      }
+
+      .hero-text h1{
+        font-size: 8vmin;
+        ;
+    }
+
+    .hero-gothic {
+        height: 50vh;
+        padding-top:2% ;
+        padding-bottom: 2%;
+     }
+
+    
+
+
+  
+  }
+  
+  
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    #hero-dos{
+        margin-top: 80px;
+          
+      }
+   
+
+    .slider{
+        width: 350px !important;
+        height: 400px;
+      }
+
+      .hero-text h1{
+        font-size: 6vmin;
+        ;
+    }
+
+
+    .hero-gothic {
+        height: 50vh;
+        padding-top:1% ;
+        padding-bottom: 1%;
+     }
+
+     .homeImgFixeContenedor{
+        padding: 0;
+    }
+    .homeImgFixed{
+        height: 300px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+
+  
+  }
+  
+  
+  @media screen and (max-width: 575px) {
+
+    #hero-dos{
+        padding-top:5vh ;
+
+          
+      }
+    .hero-container-dos{
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1{
+        font-size: 4vmin;
+        ;
+    }
+
+    .hero-text{
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+    }
+
+    .hero-text p{
+        font-size: 15px;
+        padding: 0px 10px 0px 0px !important;
+        text-align: center;
+        margin: 0!important;
+    }
+    .slider{
+        width: 350px !important;
+        height: 300px;
+       
+       
+      }
+
+      .botonhome{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .hero-gothic {
+        height: 50vh;
+        padding-top:1% ;
+        padding-bottom: 1%;
+     }
+     .homeImgFixeContenedor{
+        padding: 0;
+    }
+
+    .homeImgFixed{
+        height: 300px;
+    }
+
+
+  }
+
+  @media only screen and (max-width:500px) {
+
+  
+
+    
+ }
+  
+  
+  @media screen and (min-width: 421px) and (max-width: 574px) {
+
+    .hero-gothic {
+        height: 30vh;
+        padding-top:1% ;
+        padding-bottom: 1%;
+     }
+     .homeImgFixeContenedor{
+        padding: 0;
+    }
+   .homeImgFixed{
+       height: 300px;
+       
+      background-attachment:scroll;
+       
+   }
+
+   .homeDescrip p{
+       padding: 10px;
+
+   }
+
+   .hero-container-dos{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.hero-text p{
+    font-size: 15px;
+    padding: 0px 10px 0px 0px !important;
+    text-align: center;
+    margin: 0!important;
+}
+    
+    
+  
+  }
+  
+  
+  @media screen and (max-width: 420px) {
+    .slider{
+        width: 250px !important;
+        height: 200px;
+       
+       
+      }
+
+      .hero-gothic {
+        height: 20vh;
+        padding-top:1% ;
+        padding-bottom: 1%;
+     }
+
+    .homeImgFixeContenedor{
+        padding: 0;
+    }
+   .homeImgFixed{
+       height: 300px;
+       
+      background-attachment:scroll;
+       
+   }
+ 
+   .homeDescrip p{
+    padding: 5px;
+    font-size: small;
+
+}
+
+.hero-container-dos{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.hero-text p{
+    font-size: 15px;
+    padding: 0px 10px 0px 0px !important;
+    text-align: center;
+    margin: 0!important;
+}
+   
+
+
+  }
+
+
+
+ 
+
+
+
+
+
+
+ 
+  
+
+  

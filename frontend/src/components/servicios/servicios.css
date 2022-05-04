@@ -1,0 +1,265 @@
+.subtitle-principal-pc h2,
+.subtitle-principal-media h2 {
+  font-size: 5vmin;
+  color: var(--color-bg-variant);
+  text-align: center;
+
+}
+
+
+
+/* hero product */
+
+
+
+
+#principal {
+  background: rgb(16, 26, 38)
+}
+
+#divprincipal {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: white;
+
+}
+
+#parraf {
+  font-size: small;
+  justify-content: center;
+}
+
+.container1 {
+  margin-top: 18vh;
+  margin-left: 8vh;
+}
+
+.container2 {
+  margin-top: 10vh;
+  margin-left: 8vh;
+  margin-bottom: 7vh;
+  margin-right: 2vh;
+}
+
+.banner-service {
+  background: url("./dekstop.jpeg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+
+}
+
+.banner-service h1 {
+  color: whitesmoke;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  font-size: 10vmin;
+  margin: 20px 0px;
+  text-transform: uppercase;
+
+}
+
+.banner-service p {
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+  font-size: 5vmin;
+  margin: 20px 0px;
+
+
+}
+
+
+
+
+
+.spaceservices {
+  margin-top: 30px !important;
+}
+
+
+
+
+
+
+/********************************************** M E D I A -Q U E R Y************************ */
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .appMobileContent h2 {
+    font-size: 30px;
+  }
+
+  .appMobileContent h4 {
+    font-size: 20px;
+  }
+
+  .spaceservices {
+    margin-top: 30px !important;
+  }
+
+  .subtitle-principal-pc h2 {
+    font-size: 1vmin !important;
+    color: var(--color-bg-variant);
+    text-align: left !important;
+  }
+
+
+  .appMobileImage img {
+    margin-left: 5px !important;
+  }
+
+  .container1 h4 {
+    font-size: 20px !important;
+  }
+
+  .container1 h1 {
+    font-size: 20px !important;
+  }
+
+  .container1 p {
+    font-size: 10px !important;
+  }
+
+
+  .container2 h3 {
+    font-size: 20px !important;
+  }
+
+  .container2 p {
+    font-size: 10px !important;
+  }
+
+  .container1 {
+    margin-top: 18vh;
+    margin-left: 2vh;
+  }
+
+  .container2 {
+    margin-top: 10vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 2vh;
+  }
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+@media screen and (max-width: 575px) {
+
+  .appMobileContent h2 {
+    text-align: center;
+  }
+
+  .appMobileContent h4 {
+    text-align: center !important;
+  }
+
+  .appMobileImage img {
+    margin-left: 50px !important;
+  }
+
+  .container1 h4 {
+    font-size: 30px !important;
+  }
+
+  .container1 h1 {
+    font-size: 20px !important;
+  }
+
+  .container1 p {
+    font-size: 10px !important;
+  }
+
+
+  .container2 h3 {
+    font-size: 20px !important;
+  }
+
+  .container2 p {
+    font-size: 10px !important;
+  }
+
+  .container1 {
+    margin-top: 18vh;
+    margin-left: 2vh;
+  }
+
+  .container2 {
+    margin-top: 10vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 2vh;
+  }
+
+}
+
+
+@media screen and (min-width: 421px) and (max-width: 574px) {}
+
+
+@media screen and (max-width: 420px) {
+
+  .appMobileContent h2 {
+    text-align: center;
+  }
+
+  .appMobileContent h4 {
+    text-align: center !important;
+  }
+
+  .appMobileImage img {
+    margin-left: 30px !important;
+  }
+
+  .container1 h4 {
+    font-size: 30px !important;
+  }
+
+  .container1 h1 {
+    font-size: 20px !important;
+  }
+
+  .container1 p {
+    font-size: 10px !important;
+  }
+
+
+  .container2 h3 {
+    font-size: 20px !important;
+  }
+
+  .container2 p {
+    font-size: 10px !important;
+  }
+
+  .container1 {
+    margin-top: 18vh;
+    margin-left: 2vh;
+  }
+
+  .container2 {
+    margin-top: 10vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 2vh;
+  }
+
+
+}

@@ -1,0 +1,89 @@
+
+.hero-gothic {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  min-height: 300px;
+  background-color:var(--color-bg);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: 0 auto;
+}
+
+.hero-gothic__slide {
+  opacity: .7;
+  position: relative;
+  cursor: pointer;
+  flex-grow: 1;
+  max-width: 100px;
+  height: 100%;
+  margin-right: 20px;
+  transition: all 0.33s cubic-bezier(0.74, 0.28, 0.25, 0.8);
+  overflow: hidden;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.hero-gothic img {
+  clip-path: inset(0% 0% 0% 0%);
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  color: white;
+  opacity: 0;
+  transition: all 0.33s cubic-bezier(0.74, 0.28, 0.25, 0.8);
+  transition-delay: .3s;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .8);
+  letter-spacing: 1px;
+  word-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.hero-gothic p {
+  font-size: .5em;
+  margin-bottom: 0;
+}
+
+.active {
+  max-width: 50vw;
+  opacity: 1;
+}
+
+
+.active .text {
+  left: 20px;
+  opacity: 1;
+}
+
+
+
+@media (max-width: 500px) {
+  .hero-gothic__slide.active {
+    width: 90vw;
+  }
+}
+
+
+.accelerated {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
