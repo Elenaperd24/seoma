@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73340dea.css",
+    "main.js": "/static/js/main.1691ccb3.js",
+    "static/js/787.69c1b68f.chunk.js": "/static/js/787.69c1b68f.chunk.js",
+    "static/media/mobile.jpg": "/static/media/mobile.4fd035aff0360a595848.jpg",
+    "static/media/detalle1.jpg": "/static/media/detalle1.f82c673dce1110451c40.jpg",
+    "static/media/admin2.jpg": "/static/media/admin2.6beab9b4f52462d391ae.jpg",
+    "static/media/bgproductheader.jpg": "/static/media/bgproductheader.6ae3c60b4a3a8aa9b984.jpg",
+    "static/media/Static.PNG": "/static/media/Static.38d84ab49be0f328a618.PNG",
+    "static/media/staticm.PNG": "/static/media/staticm.69ffe26707fa01ec4077.PNG",
+    "static/media/socialmedia.jpg": "/static/media/socialmedia.04e75914d227edaf5367.jpg",
+    "static/media/website1.jpeg": "/static/media/website1.c89a67bf38ffb087de9f.jpeg",
+    "static/media/mantenimiento.jpg": "/static/media/mantenimiento.c6c324deb1605cfcd09e.jpg",
+    "static/media/soporte.jpeg": "/static/media/soporte.7e5e1fa28c2e06275e24.jpeg",
+    "static/media/metricas.jpg": "/static/media/metricas.798d016def31d0ffbaa5.jpg",
+    "static/media/fide.jpeg": "/static/media/fide.4026f16e6577c7eb5cad.jpeg",
+    "static/media/big_hero.webp": "/static/media/big_hero.7df7cfd5241a1a434bf4.webp",
+    "static/media/dekstop.jpeg": "/static/media/dekstop.0049d1717fc75e562e80.jpeg",
+    "static/media/ana.jpeg": "/static/media/ana.cfc64ddde950509d91cb.jpeg",
+    "static/media/capacitacion.jpeg": "/static/media/capacitacion.86e70b31248cb2ccafa3.jpeg",
+    "index.html": "/index.html",
+    "main.73340dea.css.map": "/static/css/main.73340dea.css.map",
+    "main.1691ccb3.js.map": "/static/js/main.1691ccb3.js.map",
+    "787.69c1b68f.chunk.js.map": "/static/js/787.69c1b68f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73340dea.css",
+    "static/js/main.1691ccb3.js"
+  ]
+}
