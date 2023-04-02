@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/seoma/static/css/main.4441bebb.css",
-    "main.js": "/seoma/static/js/main.cd276cb6.js",
+    "main.js": "/seoma/static/js/main.2496053d.js",
     "static/js/787.69c1b68f.chunk.js": "/seoma/static/js/787.69c1b68f.chunk.js",
     "static/media/mobile.jpg": "/seoma/static/media/mobile.4fd035aff0360a595848.jpg",
     "static/media/detalle1.jpg": "/seoma/static/media/detalle1.f82c673dce1110451c40.jpg",
@@ -21,11 +21,11 @@
     "static/media/capacitacion.jpeg": "/seoma/static/media/capacitacion.86e70b31248cb2ccafa3.jpeg",
     "index.html": "/seoma/index.html",
     "main.4441bebb.css.map": "/seoma/static/css/main.4441bebb.css.map",
-    "main.cd276cb6.js.map": "/seoma/static/js/main.cd276cb6.js.map",
+    "main.2496053d.js.map": "/seoma/static/js/main.2496053d.js.map",
     "787.69c1b68f.chunk.js.map": "/seoma/static/js/787.69c1b68f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4441bebb.css",
-    "static/js/main.cd276cb6.js"
+    "static/js/main.2496053d.js"
   ]
 }
