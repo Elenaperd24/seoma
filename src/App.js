@@ -84,7 +84,7 @@ function App() {
 
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
