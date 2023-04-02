@@ -7,7 +7,7 @@ const Hero = () => {
     <>
   
 
-      <section id='hero-dos'>
+      <section id='hero-dos'> 
         <div className='hero-container-dos'>
 
           <div className='hero-text'>
