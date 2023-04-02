@@ -1,0 +1,437 @@
+/* hero product */
+
+
+  
+.encabezadoDetalle{
+    width: 100%;
+    height: 500px;
+    background:url('./img/detalle1.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.encabezadoDetalle h1{
+    padding-top: 2%;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.8);
+    font-size: 10vmin;
+    margin: 20px 0px;
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+/* checkbox */
+.checkboxstatic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    
+}
+
+
+
+.detalleAppWebContainer{
+    padding: 20px;
+    margin: 5% 0% 5% 0%;
+   
+   
+
+}
+
+.detalleAppWebContent{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+
+.detalleProductImg{
+    width: 700px ;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.detalleProductImgMobile{
+   
+    width: 350px;
+    
+}
+
+.detalleProductImgMobileStatic{
+    width: 350px;
+    
+}
+
+
+.detalleProductImgSmedia{
+    width: 350px;
+
+}
+
+.detalleProductImg img, .detalleProductImgMobile img,
+ .detalleProductImgMobileStatic img, .detalleProductImgSmedia img{
+
+    width: 100%;
+}
+
+
+
+/* presupuesto  */
+.presupuestoContenedor{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 0.5rem;
+
+}
+
+.presupuestoContenedorstatic{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 0.5rem;
+}
+
+.btnPresupuestoContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0 2% 0;
+}
+
+.btnPresupuesto{
+  
+	background-color:var(--color-bg-variant);
+	border-radius:10px;
+	border:1px solid var(--color-bg-variant);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	
+}
+
+.btnPresupuesto:hover{
+    background:linear-gradient(to bottom, #026873 5%, #026873 100%);
+	background-color:#ffffff;
+    color: #ffffff;
+
+
+}
+
+
+.pruebadecheckcon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+/* find presupuesto */
+
+
+/* respuesta */
+
+#respuesta{
+    margin-top: 15vh;
+  
+
+}
+
+
+.respuestaContenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var( --color-bg-variant);
+    padding-top: 20vh;
+    
+    
+}
+
+.respuestaContenedor h1{
+    font-size: 7vmin;
+    font-style: italic;
+    
+}
+
+.botonrespuesta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0 4% 0;
+}
+
+
+/* contenedor statico */
+
+.detalleProductContainerStatic{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 50px;
+}
+
+
+.subtitle-principal-web h3{
+    font-size: 4vmin;
+    color: var(--color-bg-variant);
+    text-align: center;
+    
+  }
+
+ .subtitle-total h3{
+     margin: 10px 0 10px 0;
+    font-size: 3vmin;
+    color: var(--color-bg-variant);
+    text-align: center;
+ }
+
+  td{
+
+    padding: 10px;
+
+  }
+
+  .boton-consulta{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+  /********************************************** M E D I A -Q U E R Y************************ */
+
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .detalleProductImg{
+        width: 600px ;
+    }
+
+    .presupuestoContenedor{
+        width: 400px;
+    }
+  
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .detalleProductImg{
+        width: 500px ;
+    }
+    
+    .presupuestoContenedor{
+        width: 300px;
+    }
+    
+
+
+  
+  }
+  
+  
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+ 
+    .detalleProductImg{
+        width: 350px ;
+    }
+    
+    .presupuestoContenedor{
+        width: 300px;
+    }
+
+    .detalleProductImgSmedia{
+        width: 200px;
+        
+
+    }
+
+    .socialmediamobile{
+        margin: 0!important;
+        justify-content: center !important;
+    }
+
+    .detalleAppWebContent{
+       display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+       
+        
+    }
+
+  
+  }
+  
+  
+  @media screen and (max-width: 575px) {
+
+    .detalleProductImg{
+        width: 500px ;
+    }
+    
+    .presupuestoContenedor{
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .detalleProductImgSmedia{
+        width: 200px;
+        
+
+    }
+
+    .socialmediamobile{
+        margin: 0!important;
+        justify-content: center !important;
+    }
+
+    .detalleProductImgMobile{
+   
+        width: 200px;
+        
+    }
+
+    
+
+  }
+  
+  
+  @media screen and (min-width: 421px) and (max-width: 574px) {
+
+    .detalleProductImg{
+        width: 350px ;
+    }
+    
+    .presupuestoContenedor{
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .detalleProductImgSmedia{
+        width: 150px;
+        
+
+    }
+
+    .socialmediamobile{
+        margin: 0!important;
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .listSMmobile{
+        margin: 0 !important;
+    }
+    
+
+    .detalleProductContainerStatic{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .presupuestoContenedorstatic{
+
+        width: 100%;
+
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 420px) {
+    .detalleProductImg{
+        width: 300px !important ;
+    }
+    
+    .presupuestoContenedor{
+        margin-top: 20px;
+        width: 200px;
+    }
+
+
+    .detalleProductImgSmedia{
+        width: 200px;
+        
+
+    }
+
+    .socialmediamobile{
+        margin: 0!important;
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: center !important;;
+    }
+
+    .listSMmobile{
+        margin: 0 !important;
+    }
+
+    .detalleProductContainerStatic{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .presupuestoContenedorstatic{
+
+        width: 100%;
+
+    }
+
+
+
+
+
+
+  }
+
+
+
+ 
+
+
+
+
+
+
+ 
+  
+
+  

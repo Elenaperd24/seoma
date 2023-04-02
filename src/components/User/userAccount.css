@@ -1,0 +1,147 @@
+.banner {
+    height: 40rem !important;
+    margin-bottom: -3rem !important;
+}
+
+
+.custom-header-title {
+    margin-bottom: 130px;
+}
+
+.custom-header-subtitle {
+    color: rgba(48, 47, 47, 0.6);
+    font-size: 1.2rem;
+    width: auto;
+
+}
+
+.data {
+    color: rgba(39, 35, 35, 0.6);
+    font-weight: 600;
+}
+
+.text-secondary {
+    color: rgba(95, 90, 90, 0.6) !important;
+    font-weight: lighter;
+}
+
+.custom-card {
+    margin-bottom: 5rem !important;
+}
+
+.background-card {
+    background-color: #078d9c;
+    color: white;
+}
+
+.background-card-click:hover {
+    background-color:#078d9c;
+}
+
+
+.custom-card-body {
+    margin-top: 2rem;
+    height: 100%;
+    margin-bottom: 5%;
+   
+}
+
+.favourite-button {
+    font-weight: bold !important;
+    font-size: 1.2rem;
+}
+
+.logout-button {
+    font-weight: bold !important;
+    font-size: 1.5rem;
+    width: 8rem;
+}
+
+.custom-nav-link {
+    font-weight: bold;
+    color: rgba(48, 47, 47, 0.6) !important;
+}
+
+
+
+.custom-image {
+    margin-bottom: 4rem;
+    border-radius: 50%;
+    height: 6rem;
+}
+
+
+
+.account-General {
+    justify-content: center;
+}
+
+
+.account-YourImgDet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 18vh;
+
+}
+
+.account-YourImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.account-Your {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+
+}
+
+.account-Img {
+    display: flex;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+.account-Det {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* min-width: 350px; */
+}
+
+.account-text-secondary {
+    margin-left: 10px;
+}
+
+.account-FavNotGeneral {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+
+/********************************************** M E D I A -Q U E R Y************************ */
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+@media screen and (max-width: 575px) {}
+
+
+@media screen and (min-width: 421px) and (max-width: 574px) {}
+
+
+@media screen and (max-width: 420px) {}

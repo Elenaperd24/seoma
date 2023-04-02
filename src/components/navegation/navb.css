@@ -1,0 +1,73 @@
+.color-bg-navbar {
+    /* background: rgba(0,0, 0, 0.2); */
+    background: whitesmoke;
+
+}
+
+.top-nav-collapse {
+    /* background: rgba(0,0, 0, 0.774); */
+    background: blue;
+}
+
+
+.bg-dark{
+    background: rgb(16,26,38) !important;
+}
+#demo-customized-button {
+    background: none !important;
+    padding: none !important;
+}
+
+.nav-Cart {
+    margin-right: 8px;
+}
+
+
+.imagen-logo-user{
+    background-color: #026873;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+ 
+    display: flex;
+color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.nav-ImgUser {
+    background-color: transparent;
+    border-radius: 100px;
+    /* border-style: solid;
+    border-color: green;
+    padding: 2;
+    margin-top: 6;
+    margin-left: 4; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+/* .MuiButton-endIcon {
+    background: yellow !important;
+} */
+
+.MuiMenuItem-root {
+    justify-content: center !important;
+}
+
+.MuiPaper-root {
+    background: white !important;
+}
+
+.Navb-AccountUser {
+    text-decoration: none;
+    color: #374151
+}
+
+.Navb-AccountUser:hover {
+    color: #374151
+}
