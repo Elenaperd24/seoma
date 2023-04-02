@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import React, { useEffect } from "react";
 import { accionType } from './context/reducer';
 import { useStateValue } from './context/Stateprovider';
@@ -64,7 +64,7 @@ function App() {
  
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Navb />
         <Routes>
           <Route index element={<Home />} />
